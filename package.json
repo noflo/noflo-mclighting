@@ -1,5 +1,5 @@
 {
-  "name": "noflo-mclightning",
+  "name": "noflo-mclighting",
   "version": "0.1.0",
   "description": "NoFlo components for interacting with McLighting",
   "main": "index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/noflo/noflo-mclightning.git"
+    "url": "git://github.com/noflo/noflo-mclighting.git"
   },
   "keywords": [
     "noflo",
-    "mclightning"
+    "mclighting"
   ],
   "author": "Henri Bergius <henri.bergius@iki.fi>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noflo/noflo-mclightning/issues"
+    "url": "https://github.com/noflo/noflo-mclighting/issues"
   },
-  "homepage": "https://github.com/noflo/noflo-mclightning#readme",
+  "homepage": "https://github.com/noflo/noflo-mclighting#readme",
   "dependencies": {
     "color": "^3.1.0",
     "debug": "^4.1.1",
