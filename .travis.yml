@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- lts/*
+deploy:
+  provider: npm
+  email: henri.bergius@iki.fi
+  api_key:
+    secure: thuszp8XhOMtwS/4cfmSyyksrJ0NJi9JWhR4HjkHau21bCRUlGfhgwrIA0YDcFoketHmaOWNiEX+0f6gN7FQTxISRMwgvhptvQJBu5as/rdJZjzlbPoweOM1Oo+EnPriJGae9eWNlZCQz23kyr33dpkr7cueSnKEVL8IX3aMF6FircAQE+GS3z5s1V20adBIW8vSdIKKHhFFo6iEeX2WG2IAQnKwaqGXM2RMNx9KrlRJ688WbHUB92QqdgAvMmA5qDENvtTSDuKHfvtextZBm1EXgJCBibs5bD8kK/Psg+9qTWC0r9x4FKn/kP6n0FKxzyRQDfbpghPELxS+h5Q8gcZAOcSNiG921CKpIdveugD8ZXvoN+KgKqdOCre+bqYjr/q3Dbxr3tEVeHKihe0KwMhMoBtwVaYCGjrGrw/LttaWd3WgZiRk72oq+7gn0tDHMI8wGsMR2CWiSaAjWPuT/FYkskx1z+XL1pE4iV8XlqxkmcyRdGdCNHdXD17zlrCeU5qICsiumR8nuLIcosk4sdqzHC6d3BcIGat705llQnB1c76vc3MPFOVesuTE88DaRBg9OZPYqEGBKpjznP22myj3BqNal8u7Pep6+r1CiKrd/696GAJ6mxnLPYC6R/tLLoWzfNNNgb1VQ9D4sn9dtwIAcF2NzbGQ6d28t1Ep8ks=
+  on:
+    tags: true
+    repo: noflo/noflo-mclighting

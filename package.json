@@ -1,0 +1,36 @@
+{
+  "name": "noflo-mclightning",
+  "version": "0.1.0",
+  "description": "NoFlo components for interacting with McLighting",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint components/*.js lib/*.js",
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noflo/noflo-mclightning.git"
+  },
+  "keywords": [
+    "noflo",
+    "mclightning"
+  ],
+  "author": "Henri Bergius <henri.bergius@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noflo/noflo-mclightning/issues"
+  },
+  "homepage": "https://github.com/noflo/noflo-mclightning#readme",
+  "dependencies": {
+    "color": "^3.1.0",
+    "debug": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-ws": "^4.0.1",
+    "noflo": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
